@@ -31,4 +31,6 @@ emily.learn(some_knowledge)
 emily.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve learned all of the following  from Avi: '#{steve.knowledge}'"
 puts "Emily just learned this important knowledge: '#{emily.knowledge.first}' from Avi"
+puts "Emily learned all of the following  from Avi: '#{emily.knowledge}'"

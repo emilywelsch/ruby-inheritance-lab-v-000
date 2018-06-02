@@ -20,12 +20,6 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Hendrix"
 
-Continue to operate on our student, steve. Have avi teach him some more important knowledge.
-Create a new student and have that student learn a few things from avi as well.
-Then, puts out the existing knowledge of each student.
-
-
-
 
 some_knowledge = avi.teach
 
@@ -33,5 +27,8 @@ steve.learn(some_knowledge)
 #jim.learn(some_knowledge)
 steve.learn(some_knowledge)
 steve.learn(some_knowledge)
+emily.learn(some_knowledge)
+emily.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Emily just learned this important knowledge: '#{emily.knowledge.first}' from Avi"
